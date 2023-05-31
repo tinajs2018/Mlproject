@@ -1,6 +1,7 @@
 #to tract the errors
 import logging
 import os 
+from src.logger import logging
 from datetime import  datetime
 #creating the log file
 LOG_FILE =f"{datetime.now().strftime('%m_%d_%Y_%H_%M%_%S')}.log"
